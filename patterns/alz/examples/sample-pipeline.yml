@@ -14,4 +14,4 @@ steps:
       scriptType: bash
       scriptLocation: inlineScript
       inlineScript: |
-        az deployment mg create --template-uri https://github.com/sgkoopman/azure-monitor-baseline-alerts/blob/main/patterns/alz/alzArm.json --location $(location) --management-group-id $(ManagementGroupPrefix) --parameters https://github.com/sgkoopman/azure-monitor-baseline-alerts/blob/main/patterns/alz/alzArm.param.json
+        az deployment mg create --template-uri https://raw.githubusercontent.com/Azure/azure-monitor-baseline-alerts/main/patterns/alz/alzArm.json --location $(location) --management-group-id $(ManagementGroupPrefix) --parameters https://github.com/sgkoopman/azure-monitor-baseline-alerts/blob/main/patterns/alz/alzArm.param.json
