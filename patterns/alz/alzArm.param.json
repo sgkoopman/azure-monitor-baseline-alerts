@@ -3,22 +3,22 @@
   "contentVersion": "1.0.0.0",
   "parameters": {
     "enterpriseScaleCompanyPrefix": {
-      "value": "contoso"
+      "value": "VDI-Demo"
     },
     "platformManagementGroup": {
-      "value": "contoso-platform"
+      "value": "VDI-Demo-Platform"
     },
     "IdentityManagementGroup": {
-      "value": "contoso-identity"
+      "value": "VDI-Demo-Idenity"
     },
     "managementManagementGroup": {
-      "value": "contoso-management"
+      "value": "VDI-Demo-Management"
     },
     "connectivityManagementGroup": {
-      "value": "contoso-connectivity"
+      "value": "VDI-Demo-Connectivity"
     },
     "LandingZoneManagementGroup": {
-      "value": "contoso-landingzones"
+      "value": "VDI-Demo-Landingzones"
     },
     "enableAMBAConnectivity": {
       "value": "Yes"
@@ -69,16 +69,16 @@
       "value": ""
     },
     "userAssignedManagedIdentityName": {
-      "value": "id-amba-prod-001"
+      "value": "demo-vdi-id-amba-demo-001"
     },
     "managementSubscriptionId": {
-      "value": ""
+      "value": "1e529398-1ccc-4fb5-9240-1e8f4b0f98fe"
     },
     "ALZMonitorResourceGroupName": {
-      "value": "rg-amba-monitoring-001"
+      "value": "rg-vdi-mgmt-amba-monitoring-001"
     },
     "ALZMonitorResourceGroupLocation": {
-      "value": "eastus"
+      "value": "westeurope"
     },
     "ALZMonitorResourceGroupTags": {
       "value": {
@@ -97,7 +97,7 @@
       ]
     },
     "ALZMonitorActionGroupEmail": {
-      "value": []
+      "value": ["g.koopman@viadata.nl"]
     },
     "ALZLogicappResourceId": {
       "value": ""
